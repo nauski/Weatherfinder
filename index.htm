@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<title> lol </title>
+	</head>
+
+		<body>
+
+
+<script>		
+		$(document).ready(function(){
+
+			var api = "http://api.openweathermap.org/data/2.5/weather?id=658225&appid=c90c8aa90a2c7f2b03f4a8ccb7d436a8";
+			$.getJSON(api, function(data){
+				alert(data.coord.lon);
+				
+});			
+
+});
+
+</script>
+
+
+
+
+
+
+
+		</body>
+
+</html>
