@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 
 
-     var api = "http://api.openweathermap.org/data/2.5/weather?id=658225&appid=c90c8aa90a2c7f2b03f4a8ccb7d436a8";
+     var api = "http://api.openweathermap.org/data/2.5/weather?id=658225&appid=xyz";
      $.getJSON(api, function(data){
 //   alert(data.coord.lon);
 
